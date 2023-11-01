@@ -3,7 +3,7 @@
 
 ## Project Overview
 
-Welcome to the Facebook Ad Click Prediction project. This project is aimed at helping a startup analyze customer behavior on their Facebook advertisements by predicting whether a customer will click on the ad or not. It involves data analysis, data preprocessing, model training, and evaluation. The primary goal is to assist the startup in targeting their marketing campaigns more effectively.
+Welcome to the Facebook Ad Click Prediction project. This project is aimed at helping a startup analyze customer behavior on their Facebook advertisements by predicting whether a customer will click on the ad or not. It involves exploratory data analysis, model training, and evaluation. The primary goal is to assist the startup in targeting their marketing campaigns more effectively.
 
 ## Data Summary
 
@@ -28,9 +28,7 @@ During the exploratory data analysis (EDA) phase, we performed various tasks to 
 
 ## Data Preprocessing
 
-- Converted the "Invoice" and "MSRP" columns to integers.
-- Handled missing values in the "Cylinders" column for the "Mazda" make based on available data.
-- Converted categorical variables into dummy variables for model training.
+- Eliminated columns "Name", "e-mail", and "Country" as they were deemed unimportant for the predictions
 
 ## Model Training and Evaluation
 
