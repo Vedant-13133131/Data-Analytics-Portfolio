@@ -25,7 +25,7 @@ In this project, our client is an energy company named PowerCo. Recently, PowerC
 
 The project uses two main datasets provided by the client:
 
-###client_data.csv
+### client_data.csv
 
 - `id`: Client company identifier
 - `activity_new`: Category of the company’s activity
@@ -56,7 +56,7 @@ The project uses two main datasets provided by the client:
 - `churn`: Has the client churned over the next 3 months
 
 
-###price_data.csv
+### price_data.csv
 
 - `id`: Client company identifier
 - `price_date`: Reference date
